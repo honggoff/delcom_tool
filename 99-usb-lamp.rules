@@ -1,0 +1,5 @@
+# adb protocol on passion (Nexus One)
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0fc5", ATTRS{idProduct}=="b080", MODE="0666"
+
+KERNEL=="hidraw*", ATTRS{idVendor}=="0fc5", ATTRS{idProduct}=="b080", MODE="0666"
+

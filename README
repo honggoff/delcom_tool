@@ -1,0 +1,8 @@
+COMPILING
+
+To compile set CXXFLAGS and LDFLAGS so that libhidapi and libudev can be found.
+
+RUNNING
+
+To be able to access HID devices without being root, install the udev rules
+file 99-usb-lamp.rules in your /etc/udev/rules.d directory.
